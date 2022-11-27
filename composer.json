@@ -1,0 +1,16 @@
+{
+  "name": "777marc/phpframework",
+  "description": "PHP Framework",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Framework\\": "src/"
+    }
+  },
+  "require": {
+    "slim/slim": "4.11.0",
+    "slim/psr7": " ^1.6",
+    "php-di/php-di": "^6.4"
+  }
+}
